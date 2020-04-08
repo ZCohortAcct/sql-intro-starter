@@ -1,0 +1,24 @@
+SQL = Structured Query Language
+
+C 
+- which method have 2 o w/creating
+- Diff btw creating & instantation
+
+R
+- What is reading? Whats’ being read 
+- looking at ALL obj OR 1 specific obj
+- What is ‘M’ movie, tell use we’re working with?
+
+U
+- Purpose & how it used
+
+D
+- Delete vs destroy 
+- Purpose / functionality 
+
+SQLite3 Terminal Commands: https://www.sitepoint.com/getting-started-sqlite3-basic-commands/
+~ .headers on | .column mode ~> help make viewing table data nice in terminal
+~ .help ~> help know what command can run in sqlite browser terminal
+
+
+SQL COMMANDS: https://www.codecademy.com/articles/sql-commands
