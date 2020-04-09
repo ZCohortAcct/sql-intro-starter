@@ -22,3 +22,5 @@ SQLite3 Terminal Commands: https://www.sitepoint.com/getting-started-sqlite3-bas
 
 
 SQL COMMANDS: https://www.codecademy.com/articles/sql-commands
+
+SQL Command Cheatsheet: https://www.sqltutorial.org/sql-alter-table/

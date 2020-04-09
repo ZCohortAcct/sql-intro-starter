@@ -51,18 +51,32 @@ SELECT * FROM fans WHERE name = 'Z';
 
 6.  Check out the [Faker gem](https://github.com/stympy/faker). `gem install faker`, open up irb, run `require 'faker'` and then generate a fake name for yourself using `Faker::Name.name`. How would you update your name in the fans table to be your new name?
 
-    ```sql
+```sql
+UPDATE fans SET name = 'Aracelis Rippin Jr.' WHERE name = 'Z';
 
-    ```
+```
 
 7.  Write the SQL to delete your row in the fans table.
 
 ```sql
-
+DELETE FROM fans WHERE id = 1;
+-- DELETE FROM fans WHERE name = 'Z';
 ```
 
 8.  Write the SQL to return fans that are not fans of the black eyed peas.
 
 ```sql
+SELECT * FROM fans WHERE artist_id IS NOT 169;
+SELECT * FROM fans WHERE artist_id != 169;
+SELECT * FROM fans WHERE artist_id <> 169;
+```
 
+9. SQL Query that will return a table that has fan name next the artist name (think JOIN)
+
+```sql
+SELECT
+Fans.name AS fan_name, Artists.name AS artist_name
+FROM Fans
+JOIN Artists 
+ON Artists.artistid = Fans.artist_id;
 ```
