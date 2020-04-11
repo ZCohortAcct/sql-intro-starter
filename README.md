@@ -71,7 +71,7 @@ SELECT * FROM fans WHERE artist_id != 169;
 SELECT * FROM fans WHERE artist_id <> 169;
 ```
 
-9. SQL Query that will return a table that has fan name next the artist name (think JOIN)
+9. Write the SQL that will return a table that has fan name next the artist name (think JOIN statement)
 
 ```sql
 SELECT
